@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form HTML</title>
+		<meta name="author" content="Chantika Ade Putri">
+	</head>
+	<body>
+		<form method="" action="">
+			<fieldset>
+				<legend>Data Pribadi</legend>
+				<table>
+					<tr>
+						<th><label for="">Nama</label></th>
+						<td><input size="40" type="text" name="nama" id="nama" autofocus placeholder="Nama Lengkap" required></td>
+					</tr>
+					<tr>
+						<th><label for="">NIM</label></th>
+						<td><input type="number" name="nim" id="nim" value="2401082002" readonly></td>
+					</tr>
+					<tr>
+						<th><label for="">Email</label></th>
+						<td><input size="30" type="email" name="email" id="email"></td>
+					</tr>
+					<tr>
+						<th><label for="">Jenis Kelamin</label></th>
+						<td><input type="radio" name="jk" value="Laki-Laki">Laki-Laki
+						<input type="radio" name="jk" value="Perempuan">Perempuan</td>
+					</tr>
+					<tr>
+						<th><label for="">Tanggal Lahir</label><l</th>
+						<td><input type="date" name="tgl lahir">
+						<input type="datetime-local"></td>
+					</tr>
+					<tr>
+						<th><label for="">Hobi</label></th>
+						<td><input type="checkbox" name="hobi" value="membaca">membaca
+						<input type="checkbox" name="hobi" value="berenang">berenang
+						<input type="checkbox" name="hobi" value="menyanyi">menyanyi</td>
+					</tr>
+					<tr>
+						<th><label for="">Password</label></th>
+						<td><input type="password" name="password"></td>
+					</tr>
+					<tr>
+						<th><label for="">Foto</label></th>
+						<td><input type="file" name="foto" accept="image/*"></td>
+					</tr>
+					<tr>
+						<th><label for="">Warna Kesukaan</label></th>
+						<td><input type="color" name="warna"></td>
+					</tr>
+					<tr>
+						<th><label for="alamat">Alamat</label></th>
+						<td><textarea name="alamat" cols="30" rows="5"></textarea></td>
+					</tr>
+					<tr>
+						<th><label for="kota">Kota</label></th>
+						<td>
+							<select name="kota" id="kota">
+								<option value="Padang">Padang</option>
+								<option value="Bukittinggi">Bukittinggi</option>
+								<option value="Agam">Agam</option>
+							</select>
+						</td>
+					<tr>
+						<td colspan="2"></td>
+					<tr>
+						<td colspan="2" align="center"><input type="submit"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
